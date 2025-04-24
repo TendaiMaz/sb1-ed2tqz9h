@@ -33,7 +33,7 @@ const ContactPage: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Our Location</h3>
-                    <p className="text-gray-600">123 Health Road, Harare, Zimbabwe</p>
+                    <p className="text-gray-600">19 Ceres Road, 10 Jules Court Avondale, Harare</p>
                   </div>
                 </div>
                 
