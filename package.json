@@ -7,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "prepare": "git init && git add . && git commit -m 'Initial commit'",
-    "deploy": "git push -u origin main"
+    "preview": "vite preview"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
