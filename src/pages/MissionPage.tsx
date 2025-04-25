@@ -30,7 +30,13 @@ const MissionPage: React.FC = () => {
               </h2>
               <div className="text-gray-700 mb-6 text-lg space-y-4">
                 <p>
-                  At Animal Health Spa, we are committed to being a firm of qualified professionals dedicated to the health and welfare of all animals under various management conditions. Our mission drives us to provide comprehensive healthcare solutions that address the unique needs of each animal in our care.
+                  To be a firm of qualified professionals dedicated to improving our client's success, providing fulfilling opportunities to our staff, and making a positive contribution to the economic and social well-being of our various communities.
+                </p>
+                <p>
+                  At Animal Health Spa, we understand the critical role that animal health plays in agriculture, food security, and the well-being of companion animals. Our mission drives us to provide the highest quality products and services that support the health, productivity and welfare of all animals under our clients' care.
+                </p>
+                <p>
+                  We are committed to continuous research and development and staying at the forefront of advancements in animal health.
                 </p>
                 <p>
                   We understand that healthy animals are essential for agricultural productivity, food security, and the emotional well-being of pet owners. Our dedicated team of professionals works tirelessly to ensure that every animal receives the highest standard of care and attention, regardless of their management conditions.
