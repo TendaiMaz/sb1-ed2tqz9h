@@ -38,12 +38,6 @@ const MissionPage: React.FC = () => {
                 <p>
                   We are committed to continuous research and development and staying at the forefront of advancements in animal health.
                 </p>
-                <p>
-                  We understand that healthy animals are essential for agricultural productivity, food security, and the emotional well-being of pet owners. Our dedicated team of professionals works tirelessly to ensure that every animal receives the highest standard of care and attention, regardless of their management conditions.
-                </p>
-                <p>
-                  Through continuous research, education, and collaboration with industry experts, we strive to stay at the forefront of animal health advancements and provide our clients with the most effective solutions for their specific needs.
-                </p>
               </div>
             </motion.div>
             
