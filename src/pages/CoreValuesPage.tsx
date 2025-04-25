@@ -25,7 +25,7 @@ const CoreValuesPage: React.FC = () => {
               The Values That Define Us
             </h2>
             <p className="text-gray-700 text-lg">
-              At Animal Health SPA, our core values are not just words on a page – they are the principles that guide our daily operations and shape our relationships with clients, suppliers, and the community. These values represent our commitment to excellence in every aspect of our business.
+              At Animal Health SPA, our core values are not just words on a page – they are the principles that guide our daily operations and shape our relationships with clients, suppliers, and the community. These values spur our commitment to excellence in the business of supplying animal health products.
             </p>
           </motion.div>
 
@@ -41,11 +41,8 @@ const CoreValuesPage: React.FC = () => {
                 <Heart size={32} className="text-primary-600 mr-4" />
                 <h3 className="text-2xl font-bold text-gray-900">Commitment</h3>
               </div>
-              <p className="text-gray-700 text-lg mb-6">
-                We are dedicated to meeting the needs of our clients with unwavering dedication and integrity. Our commitment extends beyond simply supplying products – we are devoted to the success and well-being of our clients and their animals.
-              </p>
               <p className="text-gray-700 text-lg">
-                This commitment drives us to go above and beyond, ensuring that we provide solutions that truly address the challenges faced by our clients in animal health care.
+                We are dedicated to meeting the needs of our clients with unwavering dedication and integrity.
               </p>
             </motion.div>
 
@@ -60,11 +57,8 @@ const CoreValuesPage: React.FC = () => {
                 <Clock size={32} className="text-secondary-600 mr-4" />
                 <h3 className="text-2xl font-bold text-gray-900">Reliability</h3>
               </div>
-              <p className="text-gray-700 text-lg mb-6">
-                Ensuring dependable and timely delivery of our services and products is fundamental to our operation. Our clients rely on us for the consistent availability of essential animal health products, and we take this responsibility seriously.
-              </p>
               <p className="text-gray-700 text-lg">
-                Through robust logistics, careful planning, and proactive communication, we strive to be the most reliable partner for all animal health needs in Zimbabwe and beyond.
+                Ensuring dependable and timely delivery of animal health products is fundamental to our operation.
               </p>
             </motion.div>
           </div>
@@ -81,11 +75,8 @@ const CoreValuesPage: React.FC = () => {
                 <CheckCircle size={32} className="text-accent-600 mr-4" />
                 <h3 className="text-2xl font-bold text-gray-900">Consistency</h3>
               </div>
-              <p className="text-gray-700 text-lg mb-6">
-                Maintaining high standards and quality across all our operations is a core principle at Animal Health SPA. We believe that consistency in product quality, service delivery, and client interactions is essential for building trust and long-term relationships.
-              </p>
               <p className="text-gray-700 text-lg">
-                Our rigorous quality control processes and standardized procedures ensure that clients receive the same exceptional experience every time they interact with our company.
+                Maintaining high standards and quality across all our operations is a core principle at Animal Health Spa. We believe in consistency in delivering quality products.
               </p>
             </motion.div>
 
