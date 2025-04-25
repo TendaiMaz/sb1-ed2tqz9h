@@ -92,10 +92,7 @@ const CoreValuesPage: React.FC = () => {
                 <h3 className="text-2xl font-bold text-gray-900">Excellence</h3>
               </div>
               <p className="text-gray-700 text-lg mb-6">
-                Striving for excellence in every aspect of our business, from procurement to delivery, is what sets Animal Health SPA apart. We are never satisfied with the status quo and continuously seek ways to improve our products, services, and operations.
-              </p>
-              <p className="text-gray-700 text-lg">
-                This pursuit of excellence drives innovation, efficiency, and ultimately delivers superior value to our clients. We believe that by excelling in what we do, we contribute to the success of our clients and the advancement of animal health care.
+                Striving for excellence in every aspect of our business, from procurement to delivery, is what sets Animal Health Spa apart. We continuously strive to improve on range and quality of products supply to our clients.
               </p>
             </motion.div>
           </div>
@@ -107,26 +104,26 @@ const CoreValuesPage: React.FC = () => {
           <div className="section-header">
             <h2 className="section-title">Our Values in Action</h2>
             <p className="section-subtitle">
-              See how our core values translate into tangible benefits for our clients and communities.
+              Our core values below translate into tangible benefits for our clients and communities.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             <ValueCard
               title="Client-Focused Solutions"
-              description="We tailor our services and product recommendations to address the specific needs and challenges of each client."
+              description="We listen to our clients in order to tailor our services to their needs."
               icon={<Users size={24} />}
               delay={0.1}
             />
             <ValueCard
               title="Quality Assurance"
-              description="We implement rigorous quality control measures to ensure that all products meet the highest standards of efficacy and safety."
+              description="We rigorously follow products manufacturers' recommendations on movement of products in order to ensure that all products meet set standards of efficacy and safety."
               icon={<Shield size={24} />}
               delay={0.2}
             />
             <ValueCard
               title="Timely Delivery"
-              description="Our logistics network is designed to provide prompt and reliable delivery of essential animal health products when and where they are needed."
+              description="Our logistics network is designed to provide prompt and reliable delivery of animal health products when and where they are needed."
               icon={<Truck size={24} />}
               delay={0.3}
             />
@@ -172,10 +169,7 @@ const CoreValuesPage: React.FC = () => {
                 Our Commitment to Zimbabwe
               </h2>
               <p className="text-gray-200 text-lg mb-6">
-                As a company established in Zimbabwe, we are deeply committed to contributing to the nation's agricultural development and food security. We understand the unique challenges faced by farmers and animal health practitioners in our country.
-              </p>
-              <p className="text-gray-200 text-lg">
-                Through our reliable supply of quality animal health products, we aim to support the growth and sustainability of Zimbabwe's livestock sector and improve the livelihoods of those who depend on it.
+                Our company is established on the premise of the unique role that agriculture plays in the economy of Zimbabwe, being a mainstay of the economy. Hence we are committed to Zimbabwe's agricultural development and food security. And we understand the unique challenges faced by farmers and animal health practitioners in our country. We therefore aim to support the growth and sustainability of Zimbabwe's livestock sector and improve the livelihoods of those who depend on it.
               </p>
             </motion.div>
           </div>
