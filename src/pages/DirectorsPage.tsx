@@ -116,13 +116,13 @@ const DirectorsPage: React.FC = () => {
                 Our Leadership Philosophy
               </h2>
               <p className="text-gray-700 mb-6 text-lg">
-                At Animal Health SPA, our leadership team is guided by a philosophy centered on ethical business practices, innovation, and a deep commitment to animal welfare and agricultural development.
+                At Animal Health Spa, our leadership team is guided by a philosophy centered on ethical business practices, innovation, and a deep commitment to animal welfare and agricultural development.
               </p>
               <p className="text-gray-700 mb-6 text-lg">
-                We believe in leading by example, fostering a culture of excellence, and empowering our team members to contribute their best. Our directors maintain an open-door policy, encouraging communication and collaboration at all levels of the organization.
+                We believe in leading by example, fostering a culture of excellence, and empowering our team members to contribute their best. Our directors maintain an open-door policy, encouraging communication and collaboration at all levels of the organization
               </p>
               <p className="text-gray-700 text-lg">
-                This leadership approach has enabled us to build a resilient, adaptable company that can effectively respond to the dynamic needs of the animal health sector while staying true to our core values and mission.
+                This leadership approach enables us to build a resilient, adaptable company that can effectively respond to the dynamic needs of the animal health sector while staying true to our core values and mission.
               </p>
             </motion.div>
             
