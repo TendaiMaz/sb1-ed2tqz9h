@@ -26,7 +26,7 @@ const MissionPage: React.FC = () => {
                 <span className="font-medium">Our Mission</span>
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Excellence in Animal Health Care
+                Dedicated to Excellence in Animal Health
               </h2>
               <div className="text-gray-700 mb-6 text-lg space-y-4">
                 <p>
