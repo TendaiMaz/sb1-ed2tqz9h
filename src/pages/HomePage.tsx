@@ -72,13 +72,13 @@ const HomePage: React.FC = () => {
                 About Animal Health SPA
               </h2>
               <p className="text-gray-700 mb-6 text-lg">
-                Established in the year 2025, Animal Health SPA is a supplier of all animal medicines, both small and big. We also supply animal feed, equipment, and accessories to farmers, institutions, game parks, reserves as well as individuals.
+                Established in 2025, Animal Health Spa is a supplier of animal medicines for all species from terrestrial to aquatic animals. We also supply animal feed / feed ingredients, equipment and other accessories to farmers, institutions, game parks, reserves among others.
               </p>
               <p className="text-gray-700 mb-6 text-lg">
-                Animal Health SPA (Pvt) Ltd is committed to addressing all animal health products in Zimbabwe and beyond the borders. By leveraging its extensive network, robust logistics, and compliance with regulatory requirements, AHS ensures that the nation's consumers have access to all essential animal health products.
+                Animal Health Spa (Pvt) Ltd is committed to making impactful contribution in addressing animal health management in Zimbabwe through leveraging its extensive network, robust logistics while complying with regulatory requirements on distribution and use of animal health products.
               </p>
               <p className="text-gray-700 mb-8 text-lg">
-                We work closely with our clients and suppliers to ensure product availability and address payment issues. Building solid relationships with them is crucial for the smooth functioning of the business.
+                We work closely with our clients and suppliers build solid and enduring business relationships.
               </p>
               <Link to="/core-business" className="btn-primary">
                 Learn More About Us
@@ -114,7 +114,7 @@ const HomePage: React.FC = () => {
           <div className="section-header">
             <h2 className="section-title">Our Core Business</h2>
             <p className="section-subtitle">
-              Animal Health SPA specializes in the supply of a wide range of Animal medicines, farm equipment, and accessories.
+              Animal Health Spa aspires to supply a wide range of animal health products in support of the farmer.
             </p>
           </div>
           

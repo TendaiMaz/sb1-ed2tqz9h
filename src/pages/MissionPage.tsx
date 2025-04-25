@@ -8,7 +8,7 @@ const MissionPage: React.FC = () => {
     <>
       <PageHeader 
         title="Our Mission"
-        subtitle="To be a firm of qualified professionals dedicated to improving our clients' success."
+        subtitle="To be a firm of qualified professionals dedicated to improving our client's success, providing fulfilling opportunities to our staff, and making a positive contribution to the economic and social well-being of our various communities."
         backgroundImage="https://images.pexels.com/photos/7533347/pexels-photo-7533347.jpeg?auto=compress&cs=tinysrgb&w=1600"
       />
       
@@ -26,17 +26,14 @@ const MissionPage: React.FC = () => {
                 <span className="font-medium">Our Mission</span>
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Dedicated to Excellence in Animal Health
+                To be a firm of qualified professionals dedicated to improving our client's success, providing fulfilling opportunities to our staff, and making a positive contribution to the economic and social well-being of our various communities.
               </h2>
               <div className="text-gray-700 mb-6 text-lg space-y-4">
                 <p>
-                  To be a firm of qualified professionals dedicated to improving our client's success, providing fulfilling opportunities to our staff, and making a positive contribution to the economic and social well-being of our various communities.
+                  At Animal Health Spa, we understand the critical role that animal health plays in agriculture, food security, and the well-being of companion animals. Our mission drives us to provide the highest quality products and services that support the health, productivity and welfare of all animals under our clients' care.
                 </p>
                 <p>
-                  At Animal Health SPA, we understand the critical role that animal health plays in agriculture, food security, and the well-being of companion animals. Our mission drives us to provide the highest quality products and services that support the health and productivity of all animals under our clients' care.
-                </p>
-                <p>
-                  We are committed to continuous improvement, staying at the forefront of advancements in animal health, and developing innovative solutions to address the evolving needs of our clients.
+                  We are committed to continuous research and development and staying at the forefront of advancements in animal health.
                 </p>
               </div>
             </motion.div>

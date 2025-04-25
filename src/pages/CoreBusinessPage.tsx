@@ -115,7 +115,7 @@ const CoreBusinessPage: React.FC = () => {
     <>
       <PageHeader 
         title="Our Core Business"
-        subtitle="Animal Health SPA specializes in the supply of a wide range of animal medicines, farm equipment, and accessories."
+        subtitle="Animal Health Spa aspires to supply a wide range of animal health products in support of the farmer."
         backgroundImage="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1600"
       />
       
