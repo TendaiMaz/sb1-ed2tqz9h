@@ -8,7 +8,7 @@ const MissionPage: React.FC = () => {
     <>
       <PageHeader 
         title="Our Mission"
-        subtitle="To be a firm of qualified professionals dedicated to improving our client's success, providing fulfilling opportunities to our staff, and making a positive contribution to the economic and social well-being of our various communities."
+        subtitle="To be a firm of qualified professionals dedicated to the health and welfare of all animals under various management conditions."
         backgroundImage="https://images.pexels.com/photos/7533347/pexels-photo-7533347.jpeg?auto=compress&cs=tinysrgb&w=1600"
       />
       
@@ -26,14 +26,17 @@ const MissionPage: React.FC = () => {
                 <span className="font-medium">Our Mission</span>
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                To be a firm of qualified professionals dedicated to improving our client's success, providing fulfilling opportunities to our staff, and making a positive contribution to the economic and social well-being of our various communities.
+                Excellence in Animal Health Care
               </h2>
               <div className="text-gray-700 mb-6 text-lg space-y-4">
                 <p>
-                  At Animal Health Spa, we understand the critical role that animal health plays in agriculture, food security, and the well-being of companion animals. Our mission drives us to provide the highest quality products and services that support the health, productivity and welfare of all animals under our clients' care.
+                  At Animal Health Spa, we are committed to being a firm of qualified professionals dedicated to the health and welfare of all animals under various management conditions. Our mission drives us to provide comprehensive healthcare solutions that address the unique needs of each animal in our care.
                 </p>
                 <p>
-                  We are committed to continuous research and development and staying at the forefront of advancements in animal health.
+                  We understand that healthy animals are essential for agricultural productivity, food security, and the emotional well-being of pet owners. Our dedicated team of professionals works tirelessly to ensure that every animal receives the highest standard of care and attention, regardless of their management conditions.
+                </p>
+                <p>
+                  Through continuous research, education, and collaboration with industry experts, we strive to stay at the forefront of animal health advancements and provide our clients with the most effective solutions for their specific needs.
                 </p>
               </div>
             </motion.div>
@@ -62,7 +65,7 @@ const MissionPage: React.FC = () => {
           <div className="section-header">
             <h2 className="section-title">Our Strategic Goals</h2>
             <p className="section-subtitle">
-              We have established clear strategic goals to guide our operations and ensure we fulfill our mission.
+              We have established clear strategic goals to guide our operations and ensure we fulfill our mission of providing exceptional animal health care.
             </p>
           </div>
           
@@ -79,7 +82,7 @@ const MissionPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4">Market Leadership</h3>
               <p className="text-gray-600">
-                To establish and maintain a position as the leading supplier of animal health products in Zimbabwe and expand our presence in neighboring countries.
+                To establish and maintain our position as the leading provider of comprehensive animal health solutions in Zimbabwe, serving both agricultural and companion animal sectors.
               </p>
             </motion.div>
             
@@ -93,9 +96,9 @@ const MissionPage: React.FC = () => {
               <div className="bg-primary-50 text-primary-600 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
                 <Award size={24} />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Product Excellence</h3>
+              <h3 className="text-xl font-semibold mb-4">Service Excellence</h3>
               <p className="text-gray-600">
-                To offer a comprehensive range of high-quality animal health products that meet or exceed industry standards and client expectations.
+                To provide exceptional veterinary services, wellness programs, and healthcare products that meet the highest standards of quality and effectiveness.
               </p>
             </motion.div>
             
@@ -109,9 +112,9 @@ const MissionPage: React.FC = () => {
               <div className="bg-primary-50 text-primary-600 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
                 <Users size={24} />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Client Success</h3>
+              <h3 className="text-xl font-semibold mb-4">Client Partnership</h3>
               <p className="text-gray-600">
-                To contribute significantly to the success of our clients by providing products and expertise that enhance animal health and productivity.
+                To build strong, lasting relationships with our clients by understanding their needs and providing personalized solutions for their animal health challenges.
               </p>
             </motion.div>
             
@@ -125,9 +128,9 @@ const MissionPage: React.FC = () => {
               <div className="bg-primary-50 text-primary-600 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
                 <Building size={24} />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Operational Excellence</h3>
+              <h3 className="text-xl font-semibold mb-4">Facility Excellence</h3>
               <p className="text-gray-600">
-                To develop and maintain efficient, reliable operations that ensure consistent product availability and timely delivery to our clients.
+                To maintain state-of-the-art facilities equipped with the latest technology and staffed by highly trained professionals to provide the best possible care.
               </p>
             </motion.div>
             
@@ -141,9 +144,9 @@ const MissionPage: React.FC = () => {
               <div className="bg-primary-50 text-primary-600 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
                 <Compass size={24} />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Innovation and Adaptation</h3>
+              <h3 className="text-xl font-semibold mb-4">Innovation and Research</h3>
               <p className="text-gray-600">
-                To continuously evaluate and adapt our product offerings and services to address emerging needs and advancements in animal health.
+                To continuously explore and implement new approaches in animal health care, staying at the forefront of veterinary medicine and wellness practices.
               </p>
             </motion.div>
             
@@ -157,9 +160,9 @@ const MissionPage: React.FC = () => {
               <div className="bg-primary-50 text-primary-600 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
                 <Users size={24} />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Community Impact</h3>
+              <h3 className="text-xl font-semibold mb-4">Community Education</h3>
               <p className="text-gray-600">
-                To make a positive contribution to the economic and social well-being of the communities in which we operate.
+                To actively promote animal health awareness and education in our community, helping pet owners and farmers make informed decisions about animal care.
               </p>
             </motion.div>
           </div>
@@ -184,10 +187,10 @@ const MissionPage: React.FC = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                Join Us in Our Mission
+                Partner With Us for Better Animal Health
               </h2>
               <p className="text-gray-200 text-lg mb-8">
-                We believe that by working together with our clients, suppliers, and communities, we can create a healthier future for animals and the people who depend on them. Whether you are a farmer, veterinarian, pet owner, or institution, we invite you to join us in our mission to improve animal health and welfare.
+                Whether you're a farmer looking to improve livestock health, a pet owner seeking the best care for your companion, or a veterinary professional interested in collaboration, we invite you to join us in our mission to provide exceptional animal health care. Together, we can create a healthier future for all animals.
               </p>
             </motion.div>
           </div>
