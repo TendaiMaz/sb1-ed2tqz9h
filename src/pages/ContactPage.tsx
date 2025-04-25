@@ -43,8 +43,8 @@ const ContactPage: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Phone Number</h3>
-                    <p className="text-gray-600">+263 123 456 789</p>
-                    <p className="text-gray-600">+263 987 654 321</p>
+                    <p className="text-gray-600">0772 750 543</p>
+                    <p className="text-gray-600">0772 222 069</p>
                   </div>
                 </div>
                 
@@ -54,8 +54,7 @@ const ContactPage: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Email Address</h3>
-                    <p className="text-gray-600">info@animalhealthspa.com</p>
-                    <p className="text-gray-600">orders@animalhealthspa.com</p>
+                    <p className="text-gray-600">enquiries@animalhealthspa.com</p>
                   </div>
                 </div>
                 
@@ -77,7 +76,7 @@ const ContactPage: React.FC = () => {
                 <p className="text-gray-600 mb-2">
                   For urgent animal health emergencies outside of business hours:
                 </p>
-                <p className="text-gray-900 font-medium">+263 123 789 456</p>
+                <p className="text-gray-900 font-medium">0772 750 543</p>
               </div>
             </motion.div>
             
