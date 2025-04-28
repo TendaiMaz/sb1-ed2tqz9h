@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send } from 'lucide-react';
+import { Send, Shield } from 'lucide-react';
 
 const ContactForm: React.FC = () => {
   const [formState, setFormState] = useState({
@@ -30,7 +30,7 @@ const ContactForm: React.FC = () => {
     e.preventDefault();
     
     if (!formState.isHuman) {
-      setSubmitError('Please verify that you are human by checking the box.');
+      setSubmitError('Please verify that you are human by checking the box below.');
       return;
     }
 
@@ -45,11 +45,19 @@ const ContactForm: React.FC = () => {
         from: formState.email,
         subject: `Contact Form: ${formState.subject}`,
         text: `
-          Name: ${formState.name}
+          New Contact Form Submission
+          ---------------------------
+          
+          From: ${formState.name}
           Email: ${formState.email}
-          Phone: ${formState.phone}
+          Phone: ${formState.phone || 'Not provided'}
           Subject: ${formState.subject}
-          Message: ${formState.message}
+          
+          Message:
+          ${formState.message}
+          
+          ---------------------------
+          This message was sent from the Animal Health Spa website contact form.
         `
       };
 
@@ -181,7 +189,7 @@ const ContactForm: React.FC = () => {
           </div>
 
           <div className="md:col-span-2">
-            <div className="flex items-start">
+            <div className="flex items-start bg-gray-50 p-4 rounded-lg border border-gray-200">
               <div className="flex items-center h-5">
                 <input
                   id="isHuman"
@@ -193,11 +201,14 @@ const ContactForm: React.FC = () => {
                   required
                 />
               </div>
-              <div className="ml-3 text-sm">
-                <label htmlFor="isHuman" className="font-medium text-gray-700">
+              <div className="ml-3">
+                <label htmlFor="isHuman" className="font-medium text-gray-700 flex items-center">
+                  <Shield size={16} className="mr-2 text-primary-600" />
                   I confirm that I am a human
                 </label>
-                <p className="text-gray-500">Please check this box to verify you are not a robot.</p>
+                <p className="text-gray-500 text-sm mt-1">
+                  This helps us prevent spam and automated submissions. Your information is secure and will only be used to respond to your inquiry.
+                </p>
               </div>
             </div>
           </div>

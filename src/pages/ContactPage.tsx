@@ -101,14 +101,17 @@ const ContactPage: React.FC = () => {
             </p>
           </div>
           
-          <div className="mt-12 rounded-lg overflow-hidden shadow-md h-[400px] bg-gray-200 flex items-center justify-center">
-            <p className="text-gray-600 text-center p-4">
-              Interactive map would be embedded here using Google Maps or similar service.
-              <br />
-              <span className="text-sm block mt-2">
-                For privacy and performance reasons in this demo, we've used a placeholder.
-              </span>
-            </p>
+          <div className="mt-12 rounded-lg overflow-hidden shadow-md h-[400px]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.6504900121237!2d31.0381049!3d-17.7898701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a4e0c1c1c1c1%3A0x1931a4e0c1c1c1c1!2s19%20Ceres%20Rd%2C%20Avondale%2C%20Harare!5e0!3m2!1sen!2szw!4v1620000000000!5m2!1sen!2szw"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Animal Health Spa Location"
+            ></iframe>
           </div>
         </div>
       </section>
