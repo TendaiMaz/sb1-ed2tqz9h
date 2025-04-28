@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate, useLocation } from 'react-router-dom';
 import PageHeader from '../components/PageHeader';
 import TeamMember from '../components/TeamMember';
 
 const DirectorsPage: React.FC = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    // Redirect to the current page
+    navigate(location.pathname);
+  }, [navigate, location]);
+
   const directors = [
     {
       name: 'Dr. Sarah Moyo',
