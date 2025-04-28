@@ -108,6 +108,32 @@ const CoreBusinessPage: React.FC = () => {
           image: 'https://images.pexels.com/photos/6749848/pexels-photo-6749848.jpeg?auto=compress&cs=tinysrgb&w=1600'
         }
       ]
+    },
+    {
+      id: 'pesticides',
+      title: 'Animal Health Pesticides',
+      products: [
+        {
+          title: 'Ectoparasiticides',
+          description: 'Effective treatments for external parasites like ticks, fleas, and mites affecting livestock and pets.',
+          image: 'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1600'
+        },
+        {
+          title: 'Insecticides',
+          description: 'Specialized insecticides for controlling flies, mosquitoes, and other insects that affect animal health.',
+          image: 'https://images.pexels.com/photos/593451/pexels-photo-593451.jpeg?auto=compress&cs=tinysrgb&w=1600'
+        },
+        {
+          title: 'Fumigants',
+          description: 'Safe and effective fumigants for controlling pests in animal housing and storage facilities.',
+          image: 'https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&w=1600'
+        },
+        {
+          title: 'Repellents',
+          description: 'Animal-safe repellents to protect livestock from pests and disease-carrying insects.',
+          image: 'https://images.pexels.com/photos/159211/headache-pain-pills-medication-159211.jpeg?auto=compress&cs=tinysrgb&w=1600'
+        }
+      ]
     }
   ];
 

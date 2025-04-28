@@ -126,9 +126,9 @@ const HomePage: React.FC = () => {
               delay={0.1}
             />
             <ProductCard
-              title="Farm Equipment"
-              description="Modern and efficient equipment for farm operations, designed to improve productivity."
-              image="https://images.pexels.com/photos/5580800/pexels-photo-5580800.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              title="Animal Health Pesticides"
+              description="Comprehensive range of pesticides and pest control solutions for maintaining animal health and welfare."
+              image="https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1600"
               delay={0.2}
             />
             <ProductCard
