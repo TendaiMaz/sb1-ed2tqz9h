@@ -9,6 +9,7 @@ const ContactForm: React.FC = () => {
     phone: '',
     subject: '',
     message: '',
+    isHuman: false
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -18,18 +19,43 @@ const ContactForm: React.FC = () => {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => {
-    const { name, value } = e.target;
-    setFormState((prev) => ({ ...prev, [name]: value }));
+    const { name, value, type } = e.target;
+    setFormState((prev) => ({ 
+      ...prev, 
+      [name]: type === 'checkbox' ? (e.target as HTMLInputElement).checked : value 
+    }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    if (!formState.isHuman) {
+      setSubmitError('Please verify that you are human by checking the box.');
+      return;
+    }
+
     setIsSubmitting(true);
     setSubmitError('');
     
-    // Simulate API call
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      // Here you would typically make an API call to your backend
+      // For now, we'll simulate the email sending
+      const emailData = {
+        to: 'enquiries@animalhealthspa.com',
+        from: formState.email,
+        subject: `Contact Form: ${formState.subject}`,
+        text: `
+          Name: ${formState.name}
+          Email: ${formState.email}
+          Phone: ${formState.phone}
+          Subject: ${formState.subject}
+          Message: ${formState.message}
+        `
+      };
+
+      // Simulate API call
+      await new Promise(resolve => setTimeout(resolve, 1500));
+      
       setSubmitSuccess(true);
       // Reset form
       setFormState({
@@ -38,13 +64,18 @@ const ContactForm: React.FC = () => {
         phone: '',
         subject: '',
         message: '',
+        isHuman: false
       });
       
       // Reset success message after 5 seconds
       setTimeout(() => {
         setSubmitSuccess(false);
       }, 5000);
-    }, 1500);
+    } catch (error) {
+      setSubmitError('Failed to send message. Please try again later.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -147,6 +178,28 @@ const ContactForm: React.FC = () => {
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
               required
             ></textarea>
+          </div>
+
+          <div className="md:col-span-2">
+            <div className="flex items-start">
+              <div className="flex items-center h-5">
+                <input
+                  id="isHuman"
+                  name="isHuman"
+                  type="checkbox"
+                  checked={formState.isHuman}
+                  onChange={handleChange}
+                  className="h-4 w-4 text-primary-600 focus:ring-primary-500 border-gray-300 rounded"
+                  required
+                />
+              </div>
+              <div className="ml-3 text-sm">
+                <label htmlFor="isHuman" className="font-medium text-gray-700">
+                  I confirm that I am a human
+                </label>
+                <p className="text-gray-500">Please check this box to verify you are not a robot.</p>
+              </div>
+            </div>
           </div>
         </div>
 
