@@ -9,9 +9,9 @@ const DirectorsPage: React.FC = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Redirect to the current page
-    navigate(location.pathname);
-  }, [navigate, location]);
+    // Redirect to the previous page
+    navigate(-1);
+  }, [navigate]);
 
   const directors = [
     {
